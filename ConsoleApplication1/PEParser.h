@@ -6,6 +6,9 @@
 #include<stdlib.h>
 
 void printDOS(PIMAGE_DOS_HEADER);
+
+
+
 void printFileHeader(PIMAGE_FILE_HEADER);
 void printOPTIONAL_HEADER32(PIMAGE_OPTIONAL_HEADER32);
 void printSection(PIMAGE_SECTION_HEADER p);
